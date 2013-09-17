@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CTLabel.h"
 
 @interface CTViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet CTLabel *myLabel;
 
 @end

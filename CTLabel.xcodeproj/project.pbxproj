@@ -18,6 +18,8 @@
 		243F81FC17E86C8400D8E11B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 243F81FB17E86C8400D8E11B /* Default-568h@2x.png */; };
 		243F81FF17E86C8400D8E11B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243F81FD17E86C8400D8E11B /* MainStoryboard.storyboard */; };
 		243F820217E86C8400D8E11B /* CTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243F820117E86C8400D8E11B /* CTViewController.m */; };
+		243F820A17E86CAD00D8E11B /* CTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 243F820917E86CAD00D8E11B /* CTLabel.m */; };
+		243F820C17E86D3400D8E11B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 243F820B17E86D3400D8E11B /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		243F81FE17E86C8400D8E11B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		243F820017E86C8400D8E11B /* CTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTViewController.h; sourceTree = "<group>"; };
 		243F820117E86C8400D8E11B /* CTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTViewController.m; sourceTree = "<group>"; };
+		243F820817E86CAD00D8E11B /* CTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTLabel.h; sourceTree = "<group>"; };
+		243F820917E86CAD00D8E11B /* CTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTLabel.m; sourceTree = "<group>"; };
+		243F820B17E86D3400D8E11B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				243F820C17E86D3400D8E11B /* QuartzCore.framework in Frameworks */,
 				243F81E617E86C8400D8E11B /* UIKit.framework in Frameworks */,
 				243F81E817E86C8400D8E11B /* Foundation.framework in Frameworks */,
 				243F81EA17E86C8400D8E11B /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +79,7 @@
 		243F81E417E86C8400D8E11B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				243F820B17E86D3400D8E11B /* QuartzCore.framework */,
 				243F81E517E86C8400D8E11B /* UIKit.framework */,
 				243F81E717E86C8400D8E11B /* Foundation.framework */,
 				243F81E917E86C8400D8E11B /* CoreGraphics.framework */,
@@ -88,6 +95,8 @@
 				243F81FD17E86C8400D8E11B /* MainStoryboard.storyboard */,
 				243F820017E86C8400D8E11B /* CTViewController.h */,
 				243F820117E86C8400D8E11B /* CTViewController.m */,
+				243F820817E86CAD00D8E11B /* CTLabel.h */,
+				243F820917E86CAD00D8E11B /* CTLabel.m */,
 				243F81EC17E86C8400D8E11B /* Supporting Files */,
 			);
 			path = CTLabel;
@@ -177,6 +186,7 @@
 				243F81F217E86C8400D8E11B /* main.m in Sources */,
 				243F81F617E86C8400D8E11B /* CTAppDelegate.m in Sources */,
 				243F820217E86C8400D8E11B /* CTViewController.m in Sources */,
+				243F820A17E86CAD00D8E11B /* CTLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

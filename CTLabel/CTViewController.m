@@ -18,6 +18,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+//    self.myLabel.text = @"my~~~label";
+//    [self.myLabel setNeedsDisplay];
+    
+    CTLabel *label = [[CTLabel alloc] initWithFrame:CGRectMake(10, 10, 100, 200)];
+    label.text = @"87290572";
+    
+    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning
